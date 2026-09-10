@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "The Brew",
-    "slug": "thebrew",
+    "slug": "the-brew",
+    "owner": "simplyeto",
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -48,6 +49,11 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "92a7bb14-84df-4184-b101-3fa053551c5b"
+      }
     }
   }
 }
