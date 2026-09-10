@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "The Brew",
+    "slug": "thebrew",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "thebrew",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#fbf8f2",
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.thebrew.app"
+    },
+    "android": {
+      "package": "com.thebrew.app",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#74c3af"
+      }
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#fbf8f2",
+      "barStyle": "dark-content",
+      "translucent": false
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#fbf8f2",
+      "barStyle": "dark-content"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow The Brew to scan recipe QR codes."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
